@@ -1,0 +1,231 @@
+GEOPM Version: 3.1.0
+Start Time: Sun Jan 05 15:45:37 2025
+Profile: "535.weather_t"
+Agent: monitor
+Policy: {}
+
+Hosts:
+  x1921c0s2b0n0:
+    Regions:
+    -
+      region: "MPI_Waitall"
+      hash: 0xa084b684
+      runtime (s): 35.2225
+      count: 135006
+      sync-runtime (s): 0.0508119
+      package-energy (J): 19.4367
+      dram-energy (J): 0.501862
+      power (W): 382.523
+      frequency (%): 122.992
+      frequency (Hz): 2.45984e+09
+      time-hint-network (s): 0.0500013
+      time-hint-ignore (s): 0
+      time-hint-compute (s): 0
+      time-hint-memory (s): 0
+      time-hint-io (s): 0
+      time-hint-serial (s): 0
+      time-hint-parallel (s): 0
+      time-hint-unknown (s): 0
+      time-hint-unset (s): 0
+      time-hint-spin (s): 0
+      gpu-energy (J): 95.1309
+      gpu-power (W): 1878.91
+      gpu-core-energy (J): 68.1999
+      gpu-core-power (W): 1342.56
+      gpu-frequency (Hz): 1.425e+09
+      uncore-frequency (Hz): 8e+08
+      BOARD_ENERGY: 125
+      BOARD_POWER: 2490.36
+      CPU_INSTRUCTIONS_RETIRED: 2.05356e+09
+      CPU_UNCORE_FREQUENCY_STATUS: 8e+08
+      GPU_POWER: 1878.91
+      GPU_ENERGY: 95.1309
+      GPU_CORE_POWER: 1342.56
+      GPU_CORE_ENERGY: 68.1999
+      LEVELZERO::GPU_CORE_FREQUENCY_EFFICIENT: 9.5e+08
+      GPU_CORE_FREQUENCY_STATUS: 1.425e+09
+      GPU_UTILIZATION: 0.997126
+      LEVELZERO::GPU_CORE_UTILIZATION: 0.997014
+      LEVELZERO::GPU_UNCORE_UTILIZATION: 0.997063
+      MSR::IA32_PMC1:PERFCTR@package-0: 5.10339e+06
+      MSR::IA32_PMC1:PERFCTR@package-1: 0
+      MSR::IA32_PMC0:PERFCTR@package-0: 691800
+      MSR::IA32_PMC0:PERFCTR@package-1: 0
+    -
+      region: "MPI_Init_thread"
+      hash: 0x5d545077
+      runtime (s): 1.58758
+      count: 1
+      sync-runtime (s): 0.151993
+      package-energy (J): 76.6477
+      dram-energy (J): 1.77977
+      power (W): 504.285
+      frequency (%): 159.086
+      frequency (Hz): 3.18171e+09
+      time-hint-network (s): 1.46038
+      time-hint-ignore (s): 0
+      time-hint-compute (s): 0
+      time-hint-memory (s): 0
+      time-hint-io (s): 0
+      time-hint-serial (s): 0
+      time-hint-parallel (s): 0
+      time-hint-unknown (s): 0
+      time-hint-unset (s): 0
+      time-hint-spin (s): 0
+      gpu-energy (J): 272.887
+      gpu-power (W): 1700.95
+      gpu-core-energy (J): 187.615
+      gpu-core-power (W): 1176.85
+      gpu-frequency (Hz): 1.6e+09
+      uncore-frequency (Hz): 2.3e+09
+      BOARD_ENERGY: 369
+      BOARD_POWER: 2410.31
+      CPU_INSTRUCTIONS_RETIRED: 3.63517e+09
+      CPU_UNCORE_FREQUENCY_STATUS: 2.3e+09
+      GPU_POWER: 1700.95
+      GPU_ENERGY: 272.887
+      GPU_CORE_POWER: 1176.85
+      GPU_CORE_ENERGY: 187.615
+      LEVELZERO::GPU_CORE_FREQUENCY_EFFICIENT: 9.5e+08
+      GPU_CORE_FREQUENCY_STATUS: 1.6e+09
+      GPU_UTILIZATION: 6.92116e-06
+      LEVELZERO::GPU_CORE_UTILIZATION: 0
+      LEVELZERO::GPU_UNCORE_UTILIZATION: 0
+      MSR::IA32_PMC1:PERFCTR@package-0: 1.0396e+07
+      MSR::IA32_PMC1:PERFCTR@package-1: 0
+      MSR::IA32_PMC0:PERFCTR@package-0: 1.8993e+06
+      MSR::IA32_PMC0:PERFCTR@package-1: 0
+    -
+      region: "MPI_Barrier"
+      hash: 0x82e72b30
+      runtime (s): 0.000182256
+      count: 1
+      sync-runtime (s): 0
+      package-energy (J): 0
+      dram-energy (J): 0
+      power (W): 0
+      frequency (%): 0
+      frequency (Hz): 0
+      time-hint-network (s): 0
+      time-hint-ignore (s): 0
+      time-hint-compute (s): 0
+      time-hint-memory (s): 0
+      time-hint-io (s): 0
+      time-hint-serial (s): 0
+      time-hint-parallel (s): 0
+      time-hint-unknown (s): 0
+      time-hint-unset (s): 0
+      time-hint-spin (s): 0
+      gpu-energy (J): 0
+      gpu-power (W): 0
+      gpu-core-energy (J): 0
+      gpu-core-power (W): 0
+      gpu-frequency (Hz): 0
+      uncore-frequency (Hz): 0
+      BOARD_ENERGY: 0
+      BOARD_POWER: nan
+      CPU_INSTRUCTIONS_RETIRED: 0
+      CPU_UNCORE_FREQUENCY_STATUS: nan
+      GPU_POWER: nan
+      GPU_ENERGY: 0
+      GPU_CORE_POWER: nan
+      GPU_CORE_ENERGY: 0
+      LEVELZERO::GPU_CORE_FREQUENCY_EFFICIENT: nan
+      GPU_CORE_FREQUENCY_STATUS: nan
+      GPU_UTILIZATION: nan
+      LEVELZERO::GPU_CORE_UTILIZATION: nan
+      LEVELZERO::GPU_UNCORE_UTILIZATION: nan
+      MSR::IA32_PMC1:PERFCTR@package-0: 0
+      MSR::IA32_PMC1:PERFCTR@package-1: 0
+      MSR::IA32_PMC0:PERFCTR@package-0: 0
+      MSR::IA32_PMC0:PERFCTR@package-1: 0
+    Unmarked Totals:
+      runtime (s): 49.0755
+      count: 0
+      sync-runtime (s): 84.1577
+      package-energy (J): 33124.8
+      dram-energy (J): 853.958
+      power (W): 393.604
+      frequency (%): 121.434
+      frequency (Hz): 2.42867e+09
+      time-hint-network (s): 35.0434
+      time-hint-ignore (s): 0
+      time-hint-compute (s): 0
+      time-hint-memory (s): 0
+      time-hint-io (s): 0
+      time-hint-serial (s): 0
+      time-hint-parallel (s): 0
+      time-hint-unknown (s): 0
+      time-hint-unset (s): 49.1138
+      time-hint-spin (s): 0
+      gpu-energy (J): 158187
+      gpu-power (W): 1879.56
+      gpu-core-energy (J): 113204
+      gpu-core-power (W): 1345.03
+      gpu-frequency (Hz): 1.47678e+09
+      uncore-frequency (Hz): 8.15164e+08
+      BOARD_ENERGY: 210102
+      BOARD_POWER: 2496.48
+      CPU_INSTRUCTIONS_RETIRED: 3.41214e+12
+      CPU_UNCORE_FREQUENCY_STATUS: 8.15164e+08
+      GPU_POWER: 1879.56
+      GPU_ENERGY: 158187
+      GPU_CORE_POWER: 1345.03
+      GPU_CORE_ENERGY: 113204
+      LEVELZERO::GPU_CORE_FREQUENCY_EFFICIENT: 9.5e+08
+      GPU_CORE_FREQUENCY_STATUS: 1.47678e+09
+      GPU_UTILIZATION: 4.37813e+09
+      LEVELZERO::GPU_CORE_UTILIZATION: 4.39658e+09
+      LEVELZERO::GPU_UNCORE_UTILIZATION: 1.46948e+09
+      MSR::IA32_PMC1:PERFCTR@package-0: 1.05622e+10
+      MSR::IA32_PMC1:PERFCTR@package-1: 0
+      MSR::IA32_PMC0:PERFCTR@package-0: 1.292e+09
+      MSR::IA32_PMC0:PERFCTR@package-1: 0
+    Application Totals:
+      runtime (s): 85.8858
+      count: 0
+      sync-runtime (s): 84.3605
+      package-energy (J): 33220.9
+      dram-energy (J): 856.239
+      power (W): 393.796
+      frequency (%): 121.449
+      frequency (Hz): 2.42899e+09
+      time-hint-network (s): 36.5538
+      time-hint-ignore (s): 0
+      time-hint-compute (s): 0
+      time-hint-memory (s): 0
+      time-hint-io (s): 0
+      time-hint-serial (s): 0
+      time-hint-parallel (s): 0
+      time-hint-unknown (s): 0
+      time-hint-unset (s): 49.1138
+      time-hint-spin (s): 0
+      gpu-energy (J): 158555
+      gpu-power (W): 1876.03
+      gpu-core-energy (J): 113460
+      gpu-core-power (W): 1341.7
+      gpu-frequency (Hz): 1.47918e+09
+      uncore-frequency (Hz): 8.44519e+08
+      BOARD_ENERGY: 210596
+      BOARD_POWER: 2494.77
+      CPU_INSTRUCTIONS_RETIRED: 3.41783e+12
+      CPU_UNCORE_FREQUENCY_STATUS: 8.44519e+08
+      GPU_POWER: 1876.03
+      GPU_ENERGY: 158555
+      GPU_CORE_POWER: 1341.7
+      GPU_CORE_ENERGY: 113460
+      LEVELZERO::GPU_CORE_FREQUENCY_EFFICIENT: 9.5e+08
+      GPU_CORE_FREQUENCY_STATUS: 1.47918e+09
+      GPU_UTILIZATION: 4.28896e+09
+      LEVELZERO::GPU_CORE_UTILIZATION: 4.30703e+09
+      LEVELZERO::GPU_UNCORE_UTILIZATION: 1.43955e+09
+      MSR::IA32_PMC1:PERFCTR@package-0: 1.05777e+10
+      MSR::IA32_PMC1:PERFCTR@package-1: 0
+      MSR::IA32_PMC0:PERFCTR@package-0: 1.2946e+09
+      MSR::IA32_PMC0:PERFCTR@package-1: 0
+      MPI startup (s): 1.58758
+      GEOPM startup (s): 1.54692
+      GEOPM overhead (s): 0.0302513
+      geopmctl memory HWM (B): 314508
+      geopmctl network BW (B/s): 0
+
