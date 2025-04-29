@@ -5,7 +5,7 @@ This artifact contains the scripts used to to generate the data and anlyze the p
 ## Contents
 - `scripts/` — Benchmark setup, launch and analysis scripts
 - `sources/` - Agent source
-- `data/` — Sample raw and processed experimental data for selected benchmark 
+- `data/` — Sample raw and plotted data for selected benchmark 
 - `doc/` — Setup and reproduction documentation
 
 
