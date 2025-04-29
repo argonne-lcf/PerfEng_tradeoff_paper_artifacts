@@ -4,11 +4,8 @@ This artifact contains the scripts used to to generate the data and anlyze the p
 
 ## Contents
 - `scripts/` — Benchmark setup, launch and analysis scripts
-- `data/` — Raw and processed experimental data
-- `figures/` — Figures generated for the paper
-- `results/` — Benchmark outputs
+- `sources/` - Agent source
+- `data/` — Sample raw and processed experimental data
 - `doc/` — Setup and reproduction documentation
 
-## Instructions
-Please refer to `doc/build_and_run.md` for detailed reproduction steps.
 
