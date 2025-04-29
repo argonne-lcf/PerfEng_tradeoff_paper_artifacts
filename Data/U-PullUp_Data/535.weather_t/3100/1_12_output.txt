@@ -1,1 +1,0 @@
-Execution time for 535.weather_t: 50 seconds
