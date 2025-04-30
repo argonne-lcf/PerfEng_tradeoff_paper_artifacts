@@ -1,7 +1,7 @@
 # Artifact A3: U-PullUp Agent and Benchmark Scripts
 
 This artifact contains the source code, build files, and benchmark automation scripts related to the U-PullUp agent and experiments described in the paper.
-The agent requires GEOPM installation for compilation and deployment
+The agent requires GEOPM installation for compilation and deployment.
 ## Contents
 
 | File | Description |
